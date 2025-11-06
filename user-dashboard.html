@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>User Dashboard - SmartCity</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand">SmartCity</div><nav><a id="logoutLink" href="#">Logout</a></nav></header>
+  <main class="container">
+    <h2 id="welcomeUser">User Dashboard</h2>
+    <div class="card">
+      <button id="openReport" class="btn green">Report an Issue</button>
+      <div id="reportBox" style="display:none; margin-top:12px;">
+        <label>Service</label>
+        <select id="reportService"></select>
+        <label>Description</label>
+        <textarea id="reportDesc"></textarea>
+        <div style="margin-top:8px;">
+          <button id="submitReport" class="btn">Submit</button>
+          <button id="cancelReport" class="btn outline">Cancel</button>
+        </div>
+        <div id="reportMsg" class="msg"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Your Reports</h3>
+      <table class="styled-table"><thead><tr><th>ID</th><th>Service</th><th>Description</th><th>Status</th><th>Date</th></tr></thead><tbody id="userReports"></tbody></table>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<div class="container">
+  <!-- dashboard content -->
+</div>

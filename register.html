@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Register - SmartCity</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand">SmartCity</div></header>
+  <main class="container narrow">
+    <h2>Register</h2>
+    <form id="registerForm" class="card">
+      <label>Full name</label>
+      <input id="regName" type="text" required>
+      <label>Email</label>
+      <input id="regEmail" type="email" required>
+      <label>Password</label>
+      <input id="regPassword" type="password" required>
+      <label>Role</label>
+      <select id="regRole"><option value="user">User</option><option value="admin">Admin</option></select>
+      <div class="btn-row">
+        <button class="btn" type="submit">Register</button>
+        <a class="btn outline" href="login.html">Login</a>
+      </div>
+      <div id="regMsg" class="msg"></div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<div class="narrow">
+  <div class="card">
+    <!-- register form -->
+  </div>
+</div>
+

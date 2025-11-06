@@ -1,0 +1,51 @@
+[
+  {
+    "id": "u_1762342161894",
+    "name": "jahnavi",
+    "email": "2400030975@kluniversity.in",
+    "password": "12345",
+    "role": "user"
+  },
+  {
+    "id": "u_1762342185260",
+    "name": "jack",
+    "email": "kollijahnavi86@gmail.com",
+    "password": "12345",
+    "role": "admin"
+  },
+  {
+    "id": "u_1762342991886",
+    "name": "kolli",
+    "email": "jahnavi86@gmail.com",
+    "password": "12345",
+    "role": "user"
+  },
+  {
+    "id": "u_1762355149438",
+    "name": "jaanu",
+    "email": "kolli@gmail.com",
+    "password": "12345",
+    "role": "admin"
+  },
+  {
+    "id": "u_1762415244659",
+    "name": "ganesh",
+    "email": "2400080158@gmail.com",
+    "password": "Chukka@4267",
+    "role": "admin"
+  },
+  {
+    "id": "u_1762415313604",
+    "name": "nima kai",
+    "email": "147@gmail.com",
+    "password": "47485",
+    "role": "admin"
+  },
+  {
+    "id": "u_1762415350442",
+    "name": "asdfghjk",
+    "email": "oiuytrews@gmail.com",
+    "password": "lkiuygtfrdx",
+    "role": "user"
+  }
+]

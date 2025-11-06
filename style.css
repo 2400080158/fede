@@ -1,0 +1,120 @@
+:root{
+  --blue:#0b66c2;
+  --muted:#6b7280;
+  --bg:#f4f7fb;
+}
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:#111}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;background:#fff;border-bottom:1px solid #e6e9ee}
+.brand{font-weight:700}
+.container{max-width:1700px;margin:20px auto;padding:0 16px}
+.narrow{max-width:900px;margin:20px auto}
+.card{background:#fff;padding:14px;border-radius:8px;box-shadow:0 6px 18px rgba(11,102,194,0.04);margin-bottom:14px}
+.btn{background:var(--blue);color:#fff;padding:8px 12px;border-radius:6px;border:none;cursor:pointer}
+.btn.green{background:#2f8a3d}
+.btn.outline{background:#fff;color:var(--blue);border:1px solid var(--blue)}
+input,textarea,select{width:100%;padding:8px;margin-top:6px;border:1px solid #e3e6ea;border-radius:6px}
+label{display:block;margin-top:8px;color:var(--muted)}
+.styled-table{width:100%;border-collapse:collapse;margin-top:8px}
+.styled-table thead th{border-bottom:2px solid #222;padding:10px;text-align:left}
+.styled-table tbody td{padding:10px;border-bottom:1px solid #e6e6e6}
+.msg{margin-top:8px;color:green}
+.footer{text-align:center;padding:16px 0;color:var(--muted);margin-top:20px}
+/* --- index.html home page styling --- */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 1.6rem;
+  color: #0b6c62;
+  margin: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #4b0082;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  padding-top: 80px;
+}
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0b6c62;
+}
+
+main p {
+  color: #444;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #555;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+}
+/* --- Force wider login, register, and dashboard --- */
+.narrow, 
+.container {
+  max-width: 900px !important;  /* wider than before */
+  width: 90% !important;        /* ensures responsiveness */
+}
+
+.card {
+  width: 100% !important;
+  max-width: 700px !important;  /* makes login/register card wider */
+  margin: 0 auto !important;
+}

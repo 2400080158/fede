@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Admin Dashboard - SmartCity</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand">SmartCity</div><nav><a id="logoutAdmin" href="#">Logout</a></nav></header>
+  <main class="container">
+    <h2 id="welcomeAdmin">Admin Dashboard</h2>
+    <div class="card">
+      <button id="addService" class="btn">Add Service</button>
+      <div id="serviceMsg" class="msg"></div>
+    </div>
+
+    <div class="card">
+      <h3>Services</h3>
+      <table class="styled-table"><thead><tr><th>ID</th><th>Name</th><th>Category</th><th>Location</th></tr></thead><tbody id="servicesTable"></tbody></table>
+    </div>
+
+    <div class="card">
+      <h3>Complaints</h3>
+      <table class="styled-table"><thead><tr><th>ID</th><th>User</th><th>Service</th><th>Description</th><th>Status</th><th>Action</th></tr></thead><tbody id="complaintsTable"></tbody></table>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+<div class="container">
+  <!-- dashboard content -->
+</div>
